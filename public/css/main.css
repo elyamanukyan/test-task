@@ -1,0 +1,15 @@
+.hidden {
+    display: none;
+}
+
+.new-domain, .new-domain::placeholder {
+    color: white;
+}
+
+.new-domain:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+}
+
+.new-domain::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}
